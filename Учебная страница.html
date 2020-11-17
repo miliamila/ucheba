@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Учебная страница</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <nav>
+			<div class="redBlock">
+				<a href="/">Главная</a>
+				<a href="/blog">Новости</a>
+				<a href="/contacts">Контакты</a>
+			</div>
+        </nav>
+		<aside style="float:right; width:30%;" >
+		<div class="blueBlock">		
+		<h1>Интересные факты!</h1>
+			<ol>
+			   <li> Факт1</li>
+			   <li> Факт2</li>
+			   <li> Факт3</li>
+			</ol>
+		</div>	
+		<button id="show">Показать</button>
+		<button id="hide">Скрыть</button>
+		</aside>
+        <header>
+		<h3>Оглавление</h3>
+        <nav>
+                <ol>
+                    <li><a href="#part1">Картинка</a></li>
+                    <li><a href="#part2">Видео и аудио</a></li>
+					<li><a href="#part3">Таблица</a></li>
+				</ol>				
+        </nav>
+		</header>
+        <main>		
+		<article>
+            <div>
+                <section id="part1">
+                    <h2>Картинка</h2>
+                    <img src="unnamed.jpg" alt="Картинка с ноутбуками" style="width:300px;height:200px" />
+                </section>
+                <section id="part2">
+                    <h2>Видео и аудио</h2>
+                    <p><video src="videoplayback.mp4" width="400" height="300" controls ></video></p>
+					<p><audio src="leopold-stokowski-national-philharmonic-orchestra-danse-macabre.mp3" controls></audio></p>
+				</section>
+				<section id="part3">
+					<h2>Таблица</h2>
+				<table class="redBlock">
+                   <caption><b>Таблица</b></caption>
+				   <thead>
+					<tr>
+						<th>Столбец1</th> <th>Столбец2</th> <th>Столбец3</th>
+					</tr>
+				   </thead>
+				   <tbody>
+					<tr>
+						<td>Строка1</td> <td>Ячейка1</td> <td>Ячейка2</td>
+					</tr>
+					<tr>
+						<td>Строка2</td> <td>Ячейка3</td> <td>Ячейка4</td>
+					</tr>
+					<tr>
+						<td>Строка3</td> <td>Ячейка5</td> <td>Ячейка6</td>
+					</tr>
+		        </table>
+				</section>
+			</div>
+        </article>
+		</main>
+        <br>
+		<footer>
+			<address>Контакты для связи <a href="mailto:milia999_90@mail.ru">Ахметзянова Миляуша</a></address>
+            <small>Ахметзянова М.В. 2020</small>
+        </footer>
+		<script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="myscript1.js"></script>
+	</body>
+</html>

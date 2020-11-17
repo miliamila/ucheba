@@ -1,0 +1,25 @@
+body{
+	font-family: Helvetica
+}
+.redBlock{
+    background-color: rgb(167, 245, 255);
+	width: 230px;
+	high: 50px;
+}
+.blueBlock{
+    background-color: rgb(254, 254, 0);
+	text-shadow: 5px 4px 3px #999;
+	border: 3px solid black; /* границы шириной в 3 пикселя сплошной черной линией */
+}
+h1{
+	text-shadow: 5px 4px 3px #999;
+}
+table {
+    border: 1px solid #ccc;  /* граница всей таблицы */
+}
+tr {
+    border: 1px solid #ccc;  /* границы между строками */
+}
+td, th {
+    border: 1px solid #ccc;  /* границы между столбцами */
+}
